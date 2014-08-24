@@ -3,328 +3,328 @@
 This code book describes the variables, the data, and any transformations or work performed to clean up the data for the Cleaning Data Course Project.  
 
 ##Feature Variables 
-Subject
-....Subject ID for a given observation
+Subject  
+....Subject ID for a given observation  
 ........integer value:  1 thru 30
 
-Activity
-....Activity Name
+Activity  
+....Activity Name  
 ........character value:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-tBodyAcc-mean()-X
-....time Body Acceleration Mean for X-axis
+tBodyAcc-mean()-X  
+....time Body Acceleration Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAcc-mean()-Y
-....time Body Acceleration Mean for Y-axis
+tBodyAcc-mean()-Y  
+....time Body Acceleration Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAcc-mean()-Z
-....time Body Acceleration Mean for Z-axis
+tBodyAcc-mean()-Z  
+....time Body Acceleration Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAcc-std()-X
-....time Body Acceleration Standard Deviation for X-axis
+tBodyAcc-std()-X  
+....time Body Acceleration Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAcc-std()-Y
-....time Body Acceleration Standard Deviation for Y-axis
+tBodyAcc-std()-Y  
+....time Body Acceleration Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAcc-std()-Z
-....time Body Acceleration Standard Deviation for Z-axis
+tBodyAcc-std()-Z  
+....time Body Acceleration Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-mean()-X
-....time Gravity Acceleration Mean for X-axis
+tGravityAcc-mean()-X  
+....time Gravity Acceleration Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-mean()-Y
-....time Gravity Acceleration Mean for Y-axis
+tGravityAcc-mean()-Y  
+....time Gravity Acceleration Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-mean()-Z
-....time Gravity Acceleration Mean for Z-axis
+tGravityAcc-mean()-Z  
+....time Gravity Acceleration Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-std()-X
-....time Gravity Acceleration Standard Deviation for X-axis
+tGravityAcc-std()-X  
+....time Gravity Acceleration Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-std()-Y
-....time Gravity Acceleration Standard Deviation for Y-axis
+tGravityAcc-std()-Y  
+....time Gravity Acceleration Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tGravityAcc-std()-Z
-....time Gravity Acceleration Standard Deviation for Z-axis
+tGravityAcc-std()-Z  
+....time Gravity Acceleration Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-mean()-X
-....time Body Acceleration Jerk Mean for X-axis
+tBodyAccJerk-mean()-X  
+....time Body Acceleration Jerk Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-mean()-Y
-....time Body Acceleration Jerk Mean for Y-axis
+tBodyAccJerk-mean()-Y  
+....time Body Acceleration Jerk Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-mean()-Z
-....time Body Acceleration Jerk Mean for Z-axis
+tBodyAccJerk-mean()-Z  
+....time Body Acceleration Jerk Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-std()-X
-....time Body Acceleration Jerk Standard Deviation for X-axis
+tBodyAccJerk-std()-X  
+....time Body Acceleration Jerk Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-std()-Y
-....time Body Acceleration Jerk Standard Deviation for Y-axis
+tBodyAccJerk-std()-Y  
+....time Body Acceleration Jerk Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerk-std()-Z
-....time Body Acceleration Jerk Standard Deviation for Z-axis
+tBodyAccJerk-std()-Z  
+....time Body Acceleration Jerk Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-mean()-X
-....time Body Gyroscope Mean for X-axis
+tBodyGyro-mean()-X  
+....time Body Gyroscope Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-mean()-Y
-....time Body Gyroscope Mean for Y-axis
+tBodyGyro-mean()-Y  
+....time Body Gyroscope Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-mean()-Z
-....time Body Gyroscope Mean for Z-axis
+tBodyGyro-mean()-Z  
+....time Body Gyroscope Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-std()-X
-....time Body Gyroscope Standard Deviation for X-axis
+tBodyGyro-std()-X  
+....time Body Gyroscope Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-std()-Y
-....time Body Gyroscope Standard Deviation for Y-axis
+tBodyGyro-std()-Y  
+....time Body Gyroscope Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyro-std()-Z
-....time Body Gyroscope Standard Deviation for Z-axis
+tBodyGyro-std()-Z  
+....time Body Gyroscope Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-mean()-X
-....time Body Gyroscope Jerk Mean for X-axis
+tBodyGyroJerk-mean()-X  
+....time Body Gyroscope Jerk Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-mean()-Y
-....time Body Gyroscope Jerk Mean for Y-axis
+tBodyGyroJerk-mean()-Y  
+....time Body Gyroscope Jerk Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-mean()-Z
-....time Body Gyroscope Jerk Mean for Z-axis
+tBodyGyroJerk-mean()-Z  
+....time Body Gyroscope Jerk Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-std()-X
-....time Body Gyroscope Jerk Standard Deviation for X-axis
+tBodyGyroJerk-std()-X  
+....time Body Gyroscope Jerk Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-std()-Y
-....time Body Gyroscope Jerk Standard Deviation for Y-axis
+tBodyGyroJerk-std()-Y  
+....time Body Gyroscope Jerk Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerk-std()-Z
-....time Body Gyroscope Jerk Standard Deviation for Z-axis
+tBodyGyroJerk-std()-Z  
+....time Body Gyroscope Jerk Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-tBodyAccMag-mean()
-....time Body Acceleration Magnitude Mean
+tBodyAccMag-mean()  
+....time Body Acceleration Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-tBodyAccMag-std()
-....time Body Acceleration Magnitude Standard Deviation
+tBodyAccMag-std()  
+....time Body Acceleration Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-tGravityAccMag-mean()
-....time Gravity Acceleration Magnitude Mean
+tGravityAccMag-mean()  
+....time Gravity Acceleration Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-tGravityAccMag-std()
-....time Gravity Acceleration Magnitude Standard Deviation
+tGravityAccMag-std()  
+....time Gravity Acceleration Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerkMag-mean()
-....time Body Acceleration Jerk Magnitude Mean
+tBodyAccJerkMag-mean()  
+....time Body Acceleration Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-tBodyAccJerkMag-std()
-....time Body Acceleration Jerk Magnitude Standard Deviation
+tBodyAccJerkMag-std()  
+....time Body Acceleration Jerk Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroMag-mean()
-....time Body Gyroscope Magnitude Mean
+tBodyGyroMag-mean()  
+....time Body Gyroscope Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroMag-std()
-....time Body Gyroscope Magnitude Standard Deviation
+tBodyGyroMag-std()  
+....time Body Gyroscope Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerkMag-mean()
-....time Body Gyroscope Jerk Magnitude Mean
+tBodyGyroJerkMag-mean()  
+....time Body Gyroscope Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-tBodyGyroJerkMag-std()
-....time Body Gyroscope Jerk Magnitude Standard Deviation
+tBodyGyroJerkMag-std()  
+....time Body Gyroscope Jerk Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-mean()-X
-....frequency Body Acceleration Mean for X-axis
+fBodyAcc-mean()-X  
+....frequency Body Acceleration Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-mean()-Y
-....frequency Body Acceleration Mean for Y-axis
+fBodyAcc-mean()-Y  
+....frequency Body Acceleration Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-mean()-Z
-....frequency Body Acceleration Mean for Z-axis
+fBodyAcc-mean()-Z  
+....frequency Body Acceleration Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-std()-X
-....frequency Body Acceleration Standard Deviation for X-axis
+fBodyAcc-std()-X  
+....frequency Body Acceleration Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-std()-Y
-....frequency Body Acceleration Standard Deviation for Y-axis
+fBodyAcc-std()-Y  
+....frequency Body Acceleration Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-std()-Z
-....frequency Body Acceleration Standard Deviation for Z-axis
+fBodyAcc-std()-Z  
+....frequency Body Acceleration Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-meanFreq()-X
-....frequency Body Acceleration Mean for X-axis
+fBodyAcc-meanFreq()-X  
+....frequency Body Acceleration Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-meanFreq()-Y
-....frequency Body Acceleration Mean for Y-axis
+fBodyAcc-meanFreq()-Y  
+....frequency Body Acceleration Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAcc-meanFreq()-Z
-....frequency Body Acceleration Mean for Z-axis
+fBodyAcc-meanFreq()-Z  
+....frequency Body Acceleration Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-mean()-X
-....frequency Body Acceleration Jerk Mean for X-axis
+fBodyAccJerk-mean()-X  
+....frequency Body Acceleration Jerk Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-mean()-Y
-....frequency Body Acceleration Jerk Mean for Y-axis
+fBodyAccJerk-mean()-Y  
+....frequency Body Acceleration Jerk Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-mean()-Z
-....frequency Body Acceleration Jerk Mean for Z-axis
+fBodyAccJerk-mean()-Z  
+....frequency Body Acceleration Jerk Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-std()-X
-....frequency Body Acceleration Jerk Standard Deviation for X-axis
+fBodyAccJerk-std()-X  
+....frequency Body Acceleration Jerk Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-std()-Y
-....frequency Body Acceleration Jerk Standard Deviation for Y-axis
+fBodyAccJerk-std()-Y  
+....frequency Body Acceleration Jerk Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-std()-Z
-....frequency Body Acceleration Jerk Standard Deviation for Z-axis
+fBodyAccJerk-std()-Z  
+....frequency Body Acceleration Jerk Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-meanFreq()-X
-....frequency Body Acceleration Jerk Mean for X-axis
+fBodyAccJerk-meanFreq()-X  
+....frequency Body Acceleration Jerk Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-meanFreq()-Y
-....frequency Body Acceleration Jerk Mean for Y-axis
+fBodyAccJerk-meanFreq()-Y  
+....frequency Body Acceleration Jerk Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccJerk-meanFreq()-Z
-....frequency Body Acceleration Jerk Mean for Z-axis
+fBodyAccJerk-meanFreq()-Z  
+....frequency Body Acceleration Jerk Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-mean()-X
-....frequency Body Gyroscope Mean for X-axis
+fBodyGyro-mean()-X  
+....frequency Body Gyroscope Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-mean()-Y
-....frequency Body Gyroscope Mean for Y-axis
+fBodyGyro-mean()-Y  
+....frequency Body Gyroscope Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-mean()-Z
-....frequency Body Gyroscope Mean for Z-axis
+fBodyGyro-mean()-Z  
+....frequency Body Gyroscope Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-std()-X
-....frequency Body Gyroscope Standard Deviation for X-axis
+fBodyGyro-std()-X  
+....frequency Body Gyroscope Standard Deviation for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-std()-Y
-....frequency Body Gyroscope Standard Deviation for Y-axis
+fBodyGyro-std()-Y  
+....frequency Body Gyroscope Standard Deviation for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-std()-Z
-....frequency Body Gyroscope Standard Deviation for Z-axis
+fBodyGyro-std()-Z  
+....frequency Body Gyroscope Standard Deviation for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-meanFreq()-X
-....frequency Body Gyroscope Mean for X-axis
+fBodyGyro-meanFreq()-X  
+....frequency Body Gyroscope Mean for X-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-meanFreq()-Y
-....frequency Body Gyroscope Mean for Y-axis
+fBodyGyro-meanFreq()-Y  
+....frequency Body Gyroscope Mean for Y-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyGyro-meanFreq()-Z
-....frequency Body Gyroscope Mean for Z-axis
+fBodyGyro-meanFreq()-Z  
+....frequency Body Gyroscope Mean for Z-axis  
 ........normalized and bounded within [-1,1]
 
-fBodyAccMag-mean()
-....frequency Body Acceleration Magnitude Mean
+fBodyAccMag-mean()  
+....frequency Body Acceleration Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyAccMag-std()
-....frequency Body Acceleration Magnitude Standard Deviation
+fBodyAccMag-std()  
+....frequency Body Acceleration Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-fBodyAccMag-meanFreq()
-....frequency Body Acceleration Magnitude Mean
+fBodyAccMag-meanFreq()  
+....frequency Body Acceleration Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyAccJerkMag-mean()
-....frequency Body Acceleration Jerk Magnitude Mean
+fBodyBodyAccJerkMag-mean()  
+....frequency Body Acceleration Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyAccJerkMag-std()
-....frequency Body Acceleration Magnitude Standard Deviation
+fBodyBodyAccJerkMag-std()  
+....frequency Body Acceleration Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyAccJerkMag-meanFreq()
-....frequency Body Acceleration Jerk Magnitude Mean
+fBodyBodyAccJerkMag-meanFreq()  
+....frequency Body Acceleration Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroMag-mean()
-....frequency Body Gyroscope Magnitude Mean
+fBodyBodyGyroMag-mean()  
+....frequency Body Gyroscope Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroMag-std()
-....frequency Body Gyroscope Magnitude Standard Deviation
+fBodyBodyGyroMag-std()  
+....frequency Body Gyroscope Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroMag-meanFreq()
-....frequency Body Gyroscope Magnitude Mean
+fBodyBodyGyroMag-meanFreq()  
+....frequency Body Gyroscope Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroJerkMag-mean()
-....frequency Body Gyroscope Jerk Magnitude Mean
+fBodyBodyGyroJerkMag-mean()  
+....frequency Body Gyroscope Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroJerkMag-std()
-.... frequency Body Gyroscope Jerk Magnitude Standard Deviation
+fBodyBodyGyroJerkMag-std()  
+.... frequency Body Gyroscope Jerk Magnitude Standard Deviation  
 ........normalized and bounded within [-1,1]
 
-fBodyBodyGyroJerkMag-meanFreq()
-....frequency Body Gyroscope Jerk Magnitude Mean
+fBodyBodyGyroJerkMag-meanFreq()  
+....frequency Body Gyroscope Jerk Magnitude Mean  
 ........normalized and bounded within [-1,1]
 
 
