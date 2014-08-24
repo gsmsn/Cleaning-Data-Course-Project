@@ -60,6 +60,7 @@ then execute the function accel(),
 which will create a file named tidyData.txt and write that file to the working directory. 
 
 run_analysis.R does the following: 
+
 1. Merges the training and test sets, from the input data set, into a single data set.
 2. Extracts the mean and standard deviation measurements. 
 3. Uses descriptive activity names to name the activities in the data set
